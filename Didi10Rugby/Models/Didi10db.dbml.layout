@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.25, 8.5" name="Didi10db">
+  <DataContextMoniker Name="/Didi10dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="759e0b11-f34d-4dc6-b346-57004012d6c7" absoluteBounds="6.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/Didi10dbDataContext/Manager" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c0552ec-d1cc-49c7-8f62-62ca96323476" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="defc68ae-eed5-408c-ae35-73125a06eddb" absoluteBounds="0.75, 4, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/Didi10dbDataContext/Team" />
+      <nestedChildShapes>
+        <elementListCompartment Id="382d85fa-8156-4461-a83d-6bfea71f8705" absoluteBounds="0.765, 4.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b86af39-44ea-4ff2-a245-42735e948976" absoluteBounds="8.375, 4.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/Didi10dbDataContext/UnRegistredUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79672cd8-23a2-4d3d-85bf-db7540f03219" absoluteBounds="8.39, 4.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="890453ab-88f8-4507-bc04-adb5c23d3fdf" absoluteBounds="12, 3.125, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/Didi10dbDataContext/Player" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1974de78-6817-434f-a63e-7f80fb90e914" absoluteBounds="12.015, 3.585, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 5.9631982421875); (1.75 : 6.2131982421875); (8.125 : 6.2131982421875); (8.125 : 4.25); (11.625 : 4.25); (11.625 : 4.97195556640625); (12 : 4.97195556640625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Didi10dbDataContext/Team/Team_Player" />
+      <nodes>
+        <classShapeMoniker Id="defc68ae-eed5-408c-ae35-73125a06eddb" />
+        <classShapeMoniker Id="890453ab-88f8-4507-bc04-adb5c23d3fdf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a5e980d0-0e90-49dd-b684-1a24eed2c1ca" absoluteBounds="3.25, 0.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/Didi10dbDataContext/Coach" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eae913f5-dea6-4381-84e3-c0f27fd9ea82" absoluteBounds="3.2649999999999997, 1.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 4); (1.75 : 2.43350341796875); (3.25 : 2.43350341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Didi10dbDataContext/Team/Team_Coach" />
+      <nodes>
+        <classShapeMoniker Id="defc68ae-eed5-408c-ae35-73125a06eddb" />
+        <classShapeMoniker Id="a5e980d0-0e90-49dd-b684-1a24eed2c1ca" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
